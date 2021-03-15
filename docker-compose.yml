@@ -33,4 +33,4 @@ services:
 
 
 volumes:
- pgdata:
+  pgdata:
