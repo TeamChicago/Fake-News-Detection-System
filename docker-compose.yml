@@ -22,7 +22,15 @@ services:
       context: ./client
     command: ["npm", "start"]
     ports:
-      - 8081:8081
+     - 3000:3000
+    volumes:
+      - ./client/:/client
+      - ./client/node_modules/:/client/node_modules
+    environment:
+     - CI=true
+     - CHOKIDAR_USEPOLLING=true
+    tty: true
+
 
 volumes:
-  pgdata:
+ pgdata:
