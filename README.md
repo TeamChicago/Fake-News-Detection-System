@@ -9,7 +9,7 @@
 |😃[황세호](https://github.com/sehoHwang)|2014041077|
 
 ## 사용 기술
-![title](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=white)  ![title](https://img.shields.io/badge/-SpringBoot-6DB33F?&logo=Spring&logoColor=white) ![title](https://img.shields.io/badge/-ReactNative-61DAFB?&logo=React&logoColor=white) ![title](https://img.shields.io/badge/-Postgresql-4479A1?&logo=Postgresql&logoColor=white) 
+![title](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=white)  ![title](https://img.shields.io/badge/-SpringBoot-6DB33F?&logo=Spring&logoColor=white) ![title](https://img.shields.io/badge/-React-61DAFB?&logo=React&logoColor=white) ![title](https://img.shields.io/badge/-Postgresql-4479A1?&logo=Postgresql&logoColor=white) 
 
 
 # Project Setup
