@@ -12,4 +12,7 @@
 ![title](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=white)  ![title](https://img.shields.io/badge/-SpringBoot-6DB33F?&logo=Spring&logoColor=white) ![title](https://img.shields.io/badge/-React-61DAFB?&logo=React&logoColor=white) ![title](https://img.shields.io/badge/-Postgresql-4479A1?&logo=Postgresql&logoColor=white) 
 
 
-# Project Setup
+# 프로젝트 세팅
+```shell
+ $ docker-compose up
+```
