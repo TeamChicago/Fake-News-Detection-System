@@ -12,7 +12,20 @@
 ![title](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=white)  ![title](https://img.shields.io/badge/-SpringBoot-6DB33F?&logo=Spring&logoColor=white) ![title](https://img.shields.io/badge/-React-61DAFB?&logo=React&logoColor=white) ![title](https://img.shields.io/badge/-Postgresql-4479A1?&logo=Postgresql&logoColor=white) 
 
 
-# 프로젝트 세팅
+## 프로젝트 세팅
+### 파일 구조
+HR-Recommendation-System \
+├── client \
+├──── Dockerfile \
+├── server \
+├──── Dockerfile \
+├── .env.pg \
+├── .env.pgadmin \
+├── docker-compose.yml \
+└── README.md \
+
+
+### 프로젝트 실행
 ```shell
  $ docker-compose up
 ```
