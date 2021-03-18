@@ -22,7 +22,7 @@ HR-Recommendation-System \
 ├── .env.pg \
 ├── .env.pgadmin \
 ├── docker-compose.yml \
-└── README.md \
+└── README.md
 
 
 ### 프로젝트 실행
