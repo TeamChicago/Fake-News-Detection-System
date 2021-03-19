@@ -27,5 +27,6 @@ HR-Recommendation-System \
 
 ### 프로젝트 실행
 ```shell
+ $ docker-compose up --build # 최초 실행
  $ docker-compose up
 ```
