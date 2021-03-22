@@ -24,6 +24,18 @@ HR-Recommendation-System \
 ├── docker-compose.yml \
 └── README.md
 
+### 환경 설정
+.env 파일 설정
+```python
+# .env.pg
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+
+# .env.pgadmin
+PGADMIN_DEFAULT_EMAIL=
+PGADMIN_DEFAULT_PASSWORD=
+```
 
 ### 프로젝트 실행
 ```shell
