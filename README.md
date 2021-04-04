@@ -1,4 +1,4 @@
-# HR-Recommendation-System
+# Fake-News-Detection-System
 충북대학교 소프트웨어학과 팀 시카고의 졸업작품 과제. tessoract-OCR을 이용한 문자인식 및 분석으로 인재추천 시스템 구축.
 
 ## 팀 구성
