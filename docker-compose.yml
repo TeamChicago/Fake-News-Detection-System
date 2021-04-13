@@ -36,13 +36,14 @@ services:
     image: springboot
     build:
       context: ./server
-    #command: ["./gradlew","run"]
-    build:
-      context: ./server
     ports:
       - 8080:8080
-    #volumes:
-
+    volumes:
+      - springdata:/usr/src:rw
+      - ./server/:/server/
+    depends_on: 
+      - postgres
 
 volumes:
   pgdata:
+  springdata:
