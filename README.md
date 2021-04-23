@@ -11,8 +11,8 @@
 ## 사용 기술
 ![title](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=white) ![title](https://img.shields.io/badge/-PyTorch-%23EE4C2C.svg?&logo=Pytorch&logoColor=white) 
   ![title](https://img.shields.io/badge/-SpringBoot-6DB33F?&logo=Spring&logoColor=white) ![title](https://img.shields.io/badge/-React-61DAFB?&logo=React&logoColor=white) ![title](https://img.shields.io/badge/-Postgresql-4479A1?&logo=Postgresql&logoColor=white)  
-## 프로젝트 세팅
-### 파일 구조
+  
+## 파일 구조
 HR-Recommendation-System \
 ├── client \
 ├──── Dockerfile \
@@ -23,6 +23,11 @@ HR-Recommendation-System \
 ├── docker-compose.yml \
 └── README.md
 
+
+## 모델
+- https://github.com/TeamChicago/Fake-News-Detection
+
+## 프로젝트 세팅
 ### 환경 설정
 .env 파일 설정
 ```python
