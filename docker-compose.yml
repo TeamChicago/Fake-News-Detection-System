@@ -31,7 +31,7 @@ services:
      - CHOKIDAR_USEPOLLING=true
     tty: true
 
-  spingboot:
+  springboot:
     restart: always
     image: springboot
     build:
