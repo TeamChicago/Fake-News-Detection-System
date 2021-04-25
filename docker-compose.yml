@@ -17,7 +17,7 @@ services:
     ports:
       - 5050:80
 
-  app:
+  client:
     build:
       context: ./client
     command: ["npm", "start"]
