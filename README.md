@@ -29,7 +29,7 @@ HR-Recommendation-System \
 
 ## 프로젝트 세팅
 ### 환경 설정
-.env 파일 설정
+- .env 파일 설정
 ```python
 # .env.pg
 POSTGRES_USER=
