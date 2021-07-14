@@ -13,7 +13,7 @@
   ![title](https://img.shields.io/badge/-SpringBoot-6DB33F?&logo=Spring&logoColor=white) ![title](https://img.shields.io/badge/-React-61DAFB?&logo=React&logoColor=white) ![title](https://img.shields.io/badge/-Postgresql-4479A1?&logo=Postgresql&logoColor=white)  
   
 ## 파일 구조
-HR-Recommendation-System \
+Fake-News-Detection-System \
 ├── client \
 ├──── Dockerfile \
 ├── server \
