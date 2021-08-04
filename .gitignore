@@ -1,0 +1,4 @@
+# environment files
+.env
+.env.pgadmin
+.env.pg
