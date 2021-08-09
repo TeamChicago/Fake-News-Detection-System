@@ -37,7 +37,7 @@ services:
     build:
       context: ./server
     ports:
-      - 8080:8080
+      - 8081:8081
     volumes:
       - springdata:/usr/src:rw
       - ./server/:/server/
