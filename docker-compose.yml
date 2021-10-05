@@ -44,6 +44,15 @@ services:
     depends_on: 
       - postgres
 
+  flask:
+    build:
+      context: ./model
+    ports:
+      - 5000:5000
+    command: ["flask", "run"]
+    volumes:
+      - ./model:/app
+
 volumes:
   pgdata:
   springdata:
