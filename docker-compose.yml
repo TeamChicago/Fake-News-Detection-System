@@ -8,7 +8,7 @@ services:
     env_file: 
       - .env.pg
     ports:
-      - 5432:5423
+      - 5432:5432
 
   pgadmin:
     image: dpage/pgadmin4
@@ -37,21 +37,22 @@ services:
     build:
       context: ./server
     ports:
-      - 8081:8081
+      - 8080:8080
     volumes:
       - springdata:/usr/src:rw
       - ./server/:/server/
     depends_on: 
       - postgres
 
-  flask:
-    build:
-      context: ./model
-    ports:
-      - 5000:5000
-    command: ["flask", "run"]
-    volumes:
-      - ./model:/app
+  # flask:
+  #   build:
+  #     context: ./model
+  #   ports:
+  #     - 5000:5000
+  #   env_file: ./model/.env
+  #   command: ["flask", "run"]
+  #   volumes:
+  #     - ./model:/app
 
 volumes:
   pgdata:
