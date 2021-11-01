@@ -16,7 +16,7 @@ count = 0
 class News(db.Model):
     id = db.Column('news_id', db.Integer, primary_key=True)
     title = db.Column(db.String(255))
-    content = db.Column(db.TEXT)
+    content = db.Column(db.String(20000))
     writer = db.Column(db.String(255))
     writtentime = db.Column(db.DateTime, default=datetime.utcnow())
     reliability = db.Column(db.Integer)
@@ -66,7 +66,6 @@ def news_post():
         _title = args['title']
         _content = args['content']
         _writer = args['writer']
-        print(_content)
         _reliability = int(predictors.predictor(_content))
 
         news = News(

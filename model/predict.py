@@ -23,6 +23,7 @@ model.classifier = nn.Sequential(
 model = model.to(device)
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+model.load_state_dict(torch.load("final_model.pt", map_location='cpu'))
 
 class Predictor:
     def preprocess_text(self, text):
@@ -41,6 +42,7 @@ class Predictor:
         return parts
 
     def predictor(self, text):
+
         RT = self.preprocess_text(text)
         overall_output = torch.zeros((1,2)).to(device)
 
@@ -50,5 +52,5 @@ class Predictor:
             
         overall_output = F.softmax(overall_output[0], dim=-1)
         result = overall_output[0].float().item() * 100
-
+        print(overall_output)
         return result
