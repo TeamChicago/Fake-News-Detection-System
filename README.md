@@ -10,7 +10,7 @@
 
 ## 사용 기술
 ![title](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=white) ![title](https://img.shields.io/badge/-PyTorch-%23EE4C2C.svg?&logo=Pytorch&logoColor=white) 
-  ![title](https://img.shields.io/badge/-SpringBoot-6DB33F?&logo=Spring&logoColor=white) ![title](https://img.shields.io/badge/-React-61DAFB?&logo=React&logoColor=white) ![title](https://img.shields.io/badge/-Postgresql-4479A1?&logo=Postgresql&logoColor=white)  
+  ![title](https://img.shields.io/badge/-SpringBoot-6DB33F?&logo=Spring&logoColor=white) ![title](https://img.shields.io/badge/-React-61DAFB?&logo=React&logoColor=white) ![title](https://img.shields.io/badge/-Postgresql-4479A1?&logo=Postgresql&logoColor=white)  ![title](https://img.shields.io/badge/-Flask-000000?&logo=Flask&logoColor=white)  
   
 ## 파일 구조
 Fake-News-Detection-System \
