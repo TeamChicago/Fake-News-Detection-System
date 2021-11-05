@@ -42,7 +42,14 @@ PGADMIN_DEFAULT_PASSWORD=
 ```
 
 ### 프로젝트 실행
+## 웹 서버
 ```shell
  $ docker-compose up --build # 최초 실행
  $ docker-compose up
+```
+
+## 모델 서버
+```shell
+ $ cd model
+ $ flask run
 ```
