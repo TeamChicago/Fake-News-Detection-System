@@ -44,8 +44,6 @@ PGADMIN_DEFAULT_EMAIL=
 PGADMIN_DEFAULT_PASSWORD=
 ```
 
-### 프로젝트 실행
-
 ### 모델 다운로드
 - URL : https://drive.google.com/file/d/1zeW96unGCSIhaL55W_JM17k9RgfN-fVi/view?usp=sharing
 - FILEID : 위 url의 id 
@@ -55,13 +53,15 @@ PGADMIN_DEFAULT_PASSWORD=
  $ wget --no-check-certificate 'https://docs.google.com/uc?export=download&id={FILEID}' -O {FILENAME}
 ```
 
-## 웹 서버
+## 프로젝트 실행
+
+### 웹 서버 시작
 ```shell
  $ docker-compose up --build # 최초 실행
  $ docker-compose up
 ```
 
-## 모델 서버
+### 모델 서버 시작
 ```shell
  $ cd model
  $ flask run
